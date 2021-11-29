@@ -2,6 +2,13 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.container-wrapper {}
+
+.container-wrapper--red {
+    background-color: #f05f40;
+    color: white;
+}
+
 .alert-container .col-12 {
     padding-left: 0;
     padding-right: 0;
@@ -13,6 +20,7 @@ body {
     padding: 5px 15px;
     background-color: #eec802;
     border-color: #eec802;
+    z-index: 1;
 }
 
 .callout-container {
@@ -29,8 +37,6 @@ body {
     justify-content: center;
 
     position: relative;
-
-    z-index: -1;
 }
 
 .opaque-overlay {
@@ -49,6 +55,27 @@ body {
     height: 5px;
     border: none;
     background-color: #c0bcb0;
+}
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
+.quotes .page-header {
+    margin-bottom: 25px;
+}
+
+/* Content containers */
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
 .quotes-container {}
@@ -95,7 +122,7 @@ body {
     z-index: 1;
 }
 
-.jumbotron-header {
+.jumbotron h1 {
     color: white;
     font-weight: bold;
     margin-bottom: 30px;
@@ -108,7 +135,7 @@ body {
 }
 
 .jumbotron .lead {
-    margin: 25px;
+    margin: 25px 0;
     color: #ffffff;
 }
 
@@ -133,4 +160,25 @@ body {
     background-color: #f03f40;
     border-color: #f03f40;
     color: #ffffff;
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.feature .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #f05f40;
 }
