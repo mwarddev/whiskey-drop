@@ -2,8 +2,6 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.container-wrapper {}
-
 .container-wrapper--red {
     background-color: #f05f40;
     color: white;
@@ -78,12 +76,13 @@ body {
     padding-bottom: 75px;
 }
 
-.quotes-container {}
-
-.features-container {}
-
-.favorites-container {}
-
+.favorites-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /* Navbar */
 
